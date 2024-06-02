@@ -32,12 +32,22 @@
       [
         "expo-font",
         {
-          "fonts": ["./assests/fonts/JosefinSans-VariableFont_wght.ttf"]
+          "fonts": [
+            "./assests/fonts/JosefinSans-VariableFont_wght.ttf"
+          ]
         }
       ]
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b4871b35-3c29-4d89-8849-2581fe53eeb4"
+      }
     }
   }
 }
